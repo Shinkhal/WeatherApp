@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
     private ForecastAdapter forecastAdapter;
 
     // Using BuildConfig to store API key securely (should be defined in gradle)
-    private String apiKey = "d32853d8fe257364ab3b7f8c209c324b";
+    private String apiKey;
 
     // Thread pool for network operations
     private ExecutorService executorService;
